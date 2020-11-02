@@ -6,7 +6,7 @@ Check out the [demo](https://codepen.io/oneezy/pen/YzWLxPO).
 ## Usage
 Install locally
 ```
-npm install crypto-font
+npm install @scavengerbot/cryptofont
 ```
 Or use with CDN
 ```
