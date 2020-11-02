@@ -10,8 +10,8 @@ npm install @scavengerbot/cryptofont
 ```
 Or use with CDN
 ```
-https://cdn.jsdelivr.net/npm/scavengerbot/cryptofont/style.css
-https://cdn.jsdelivr.net/npm/scavengerbot/cryptofont/style.min.css
+https://cdn.jsdelivr.net/npm/@scavengerbot/cryptofont/style.css
+https://cdn.jsdelivr.net/npm/@scavengerbot/cryptofont/style.min.css
 ```
 
 ## Special Thanks 👏
