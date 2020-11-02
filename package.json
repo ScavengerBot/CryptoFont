@@ -1,0 +1,28 @@
+{
+  "name": "cryptofont",
+  "version": "1.0.0",
+  "description": "Cryptocurrency icon font with over 400+ icons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScavengerBot/CryptoFont.git"
+  },
+  "keywords": [
+    "cryptofont",
+    "cryptocurrency",
+    "webfont",
+    "crypto-icon",
+    "crypto-font",
+    "cryptocurrrency-icon-font",
+    "scavenger-bot"
+  ],
+  "author": "Scavenger Bot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScavengerBot/CryptoFont/issues"
+  },
+  "homepage": "https://github.com/ScavengerBot/CryptoFont#readme"
+}
