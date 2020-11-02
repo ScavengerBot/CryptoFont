@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'scavengerbot';
   src:
-    url('fonts/scavengerbot.ttf?n6ux6m') format('truetype'),
-    url('fonts/scavengerbot.woff?n6ux6m') format('woff'),
-    url('fonts/scavengerbot.svg?n6ux6m#scavengerbot') format('svg');
+    url('fonts/scavengerbot.ttf?ghmi8v') format('truetype'),
+    url('fonts/scavengerbot.woff?ghmi8v') format('woff'),
+    url('fonts/scavengerbot.svg?ghmi8v#scavengerbot') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -769,7 +769,6 @@
 }
 .sbi-hnt:before {
   content: "\e9c1";
-  color: #fff;
 }
 .sbi-hodl:before {
   content: "\e9c2";
