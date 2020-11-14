@@ -24,6 +24,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.sbi:before { color: slategray; }
+
 .sbi-aave:before {
   content: "\e900";
   color: #7683b1;
