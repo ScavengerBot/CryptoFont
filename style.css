@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'scavengerbot';
   src:
-    url('fonts/scavengerbot.ttf?ghmi8v') format('truetype'),
-    url('fonts/scavengerbot.woff?ghmi8v') format('woff'),
-    url('fonts/scavengerbot.svg?ghmi8v#scavengerbot') format('svg');
+    url('fonts/scavengerbot.ttf?k0arw4') format('truetype'),
+    url('fonts/scavengerbot.woff?k0arw4') format('woff'),
+    url('fonts/scavengerbot.svg?k0arw4#scavengerbot') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,8 +24,36 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.sbi:before { color: slategray; }
-
+.sbi-alpha:before {
+  content: "\eaca";
+  color: #29b2ff;
+}
+.sbi-axs:before {
+  content: "\eacb";
+  color: #0046dc;
+}
+.sbi-bel:before {
+  content: "\eacc";
+  color: #00cdaa;
+}
+.sbi-ctk:before {
+  content: "\eacd";
+  color: #e1aa4c;
+}
+.sbi-grt:before {
+  content: "\eace";
+  color: #6747ed;
+}
+.sbi-inch:before {
+  content: "\eacf";
+}
+.sbi-ocean:before {
+  content: "\ead0";
+  color: #ff4092;
+}
+.sbi-skl:before {
+  content: "\ead1";
+}
 .sbi-aave:before {
   content: "\e900";
   color: #7683b1;
