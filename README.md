@@ -18,7 +18,8 @@ https://cdn.jsdelivr.net/npm/@scavengerbot/cryptofont/style.min.css
 2. Open the `icons/starter.svg` file in **Adobe Illustrator**
 3. Scale the original icon down to the correct pixel dimensions `(32x32)`
 4. Icon fonts can't be multicolored so choose the color best suited for the icon and apply it to the circle (ellipsis)
-5. Center the icon on top of the ellipsis (`Horizontal Align Center` and `Vertical Align Center`) the icons on 6. Use the **Pathfinder** tool to cut out the shape from the circle (`Minus Front`)
+5. Center the original icon on top of the ellipsis (`Horizontal Align Center` and `Vertical Align Center`) 
+6. Use the **Pathfinder** tool to cut out the shape from the circle (`Minus Front`)
 7. Select all the paths you want to merge and exclude any internal paths you do not
 8. Open your **Pathfinder** and click `Unite` to merge the objects
 9. Go to top menu and click `Object` tab, in drop down choose `compound path` and click `make` or you press `ctrl+8`
