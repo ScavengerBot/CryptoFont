@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'scavengerbot';
   src:
-    url('fonts/scavengerbot.ttf?k0arw4') format('truetype'),
-    url('fonts/scavengerbot.woff?k0arw4') format('woff'),
-    url('fonts/scavengerbot.svg?k0arw4#scavengerbot') format('svg');
+    url('fonts/scavengerbot.ttf?4ha2pg') format('truetype'),
+    url('fonts/scavengerbot.woff?4ha2pg') format('woff'),
+    url('fonts/scavengerbot.svg?4ha2pg#scavengerbot') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,6 +24,89 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.sbi-alice:before {
+  content: "\ead2";
+  color: #e98396;
+}
+.sbi-ankr:before {
+  content: "\ead3";
+  color: #334081;
+}
+.sbi-bit:before {
+  content: "\ead4";
+  color: #e64777;
+}
+.sbi-celr:before {
+  content: "\ead5";
+}
+.sbi-chr:before {
+  content: "\ead6";
+  color: #ffb0c2;
+}
+.sbi-chz:before {
+  content: "\ead7";
+  color: #cd0124;
+}
+.sbi-cro:before {
+  content: "\ead8";
+  color: #03316c;
+}
+.sbi-dydx:before {
+  content: "\ead9";
+  color: #6966ff;
+}
+.sbi-ens:before {
+  content: "\eada";
+  color: #51a9ff;
+}
+.sbi-ftt:before {
+  content: "\eadb";
+  color: #5fcade;
+}
+.sbi-gala:before {
+  content: "\eadc";
+}
+.sbi-hbar:before {
+  content: "\eadd";
+}
+.sbi-icp:before {
+  content: "\eade";
+  color: #29abe2;
+}
+.sbi-imx:before {
+  content: "\eadf";
+  color: #17b5cb;
+}
+.sbi-keep:before {
+  content: "\eae0";
+}
+.sbi-luna:before {
+  content: "\eae1";
+  color: #172852;
+}
+.sbi-one:before {
+  content: "\eae2";
+  color: #86d7c9;
+}
+.sbi-sand:before {
+  content: "\eae3";
+  color: #008ff8;
+}
+.sbi-slp:before {
+  content: "\eae4";
+  color: #78b9a1;
+}
+.sbi-tlm:before {
+  content: "\eae5";
+  color: #e9c97c;
+}
+.sbi-woo:before {
+  content: "\eae6";
+}
+.sbi-ygg:before {
+  content: "\eae7";
+  color: #435cbf;
+}
 .sbi-alpha:before {
   content: "\eaca";
   color: #29b2ff;
@@ -431,7 +514,7 @@
 }
 .sbi-crv:before {
   content: "\e962";
-  color: #ff0043;
+  color: #465775;
 }
 .sbi-crw:before {
   content: "\e963";
@@ -967,7 +1050,7 @@
 }
 .sbi-mana:before {
   content: "\e9ed";
-  color: #bfb5af;
+  color: #ff7757;
 }
 .sbi-matic:before {
   content: "\e9ee";
@@ -1477,7 +1560,7 @@
 }
 .sbi-sushi:before {
   content: "\ea72";
-  color: #f42592;
+  color: #ff4c9e;
 }
 .sbi-sxp:before {
   content: "\ea73";

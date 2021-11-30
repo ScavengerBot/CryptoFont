@@ -1,6 +1,6 @@
 {
   "name": "@scavengerbot/cryptofont",
-  "version": "1.3.2",
+  "version": "1.4",
   "description": "Cryptocurrency icon font with over 400+ icons",
   "main": "index.js",
   "scripts": {
