@@ -61,7 +61,7 @@ Icon Example
 6. Purge npm cryptofont stylesheet to receive [new version](https://cdn.jsdelivr.net/npm/@scavengerbot/cryptofont@latest/style.min.css)
 
 ## Special Thanks 👏
-To those involved at SPOTHQ (https://github.com/spothq/cryptocurrency-icons) for the start.
+To those involved at [SPOTHQ](https://github.com/spothq/cryptocurrency-icons) for the start.
 
 
 ## Used By
