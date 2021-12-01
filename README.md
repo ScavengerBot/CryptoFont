@@ -2,6 +2,8 @@
 A cryptocurrency font with over 400+ icons and actively being added to. <br>
 Check out the [demo](https://codepen.io/oneezy/pen/YzWLxPO).
 
+[![image](https://user-images.githubusercontent.com/7369575/144154223-a35d4986-018f-42c1-a2ad-60bad6f3acf8.png)](https://codepen.io/oneezy/pen/YzWLxPO)
+
 
 ## Usage
 Install locally
@@ -13,7 +15,14 @@ Or use with CDN
 https://cdn.jsdelivr.net/npm/@scavengerbot/cryptofont/style.css
 https://cdn.jsdelivr.net/npm/@scavengerbot/cryptofont/style.min.css
 ```
-## Designing Icons
+
+Icon Example
+```
+<span class="sbi sbi-btc"></span>
+```
+
+## Contributing
+### Designing Icons
 1. Find the original SVG icon and add it to the `icons/original` folder
 2. Open the `icons/starter.svg` file in **Adobe Illustrator**
 3. Scale the original icon down to the correct pixel dimensions `(32x32)`
@@ -25,7 +34,7 @@ https://cdn.jsdelivr.net/npm/@scavengerbot/cryptofont/style.min.css
 9. Go to top menu and click `Object` tab, in drop down choose `compound path` and click `make` or you press `ctrl+8`
 10. When finished `Save As` to the `icons/color` folder and name the icon correctly (this name will be the name used in the css class)
 
-## Contributing Icons
+### Contributing Icons
 1. Fork the repo
 2. Clone the repo
 3. Navigate to the project on your local machine
@@ -43,15 +52,15 @@ https://cdn.jsdelivr.net/npm/@scavengerbot/cryptofont/style.min.css
 15. Push your changes to your fork
 16. Create the Pull Request
 
-## For project maintainers
+### For project maintainers
 1. When new PR's come in, test everything before merging
 2. Make sure the `package.json` version is bumped up
 3. Merge the PR and remove the feature branch
 4. Publish package to NPM `npm publish`
 5. Update [codepen demo](https://codepen.io/oneezy/pen/YzWLxPO)
 6. Purge npm cryptofont stylesheet to receive [new version](https://cdn.jsdelivr.net/npm/@scavengerbot/cryptofont@latest/style.min.css)
-## Special Thanks 👏
 
+## Special Thanks 👏
 To those involved at SPOTHQ (https://github.com/spothq/cryptocurrency-icons) for the start.
 
 
