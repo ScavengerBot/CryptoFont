@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'scavengerbot';
   src:
-    url('fonts/scavengerbot.ttf?4ha2pg') format('truetype'),
-    url('fonts/scavengerbot.woff?4ha2pg') format('woff'),
-    url('fonts/scavengerbot.svg?4ha2pg#scavengerbot') format('svg');
+    url('fonts/scavengerbot.ttf?fklum5') format('truetype'),
+    url('fonts/scavengerbot.woff?fklum5') format('woff'),
+    url('fonts/scavengerbot.svg?fklum5#scavengerbot') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,2369 +24,1887 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.sbi:before {
+  content: "\ead7";
+}
+
+.sbi-fallback:before {
+  content: "\ead6";
+}
+.sbi-fallback2:before {
+  content: "\ead7";
+}
+.sbi-fallback3:before {
+  content: "\eae8";
+}
 .sbi-alice:before {
   content: "\ead2";
   color: #e98396;
 }
-
 .sbi-ankr:before {
   content: "\ead3";
   color: #334081;
 }
-
 .sbi-bit:before {
   content: "\ead4";
   color: #e64777;
 }
-
 .sbi-celr:before {
   content: "\ead5";
 }
-
-.sbi-chr:before {
-  content: "\ead6";
-  color: #ffb0c2;
-}
-
-.sbi-chz:before {
-  content: "\ead7";
-  color: #cd0124;
-}
-
 .sbi-cro:before {
   content: "\ead8";
   color: #03316c;
 }
-
 .sbi-dydx:before {
   content: "\ead9";
   color: #6966ff;
 }
-
 .sbi-ens:before {
   content: "\eada";
   color: #51a9ff;
 }
-
 .sbi-ftt:before {
   content: "\eadb";
   color: #5fcade;
 }
-
 .sbi-gala:before {
   content: "\eadc";
 }
-
 .sbi-hbar:before {
   content: "\eadd";
 }
-
 .sbi-icp:before {
   content: "\eade";
   color: #29abe2;
 }
-
 .sbi-imx:before {
   content: "\eadf";
   color: #17b5cb;
 }
-
 .sbi-keep:before {
   content: "\eae0";
 }
-
 .sbi-luna:before {
   content: "\eae1";
   color: #172852;
 }
-
 .sbi-one:before {
   content: "\eae2";
   color: #86d7c9;
 }
-
 .sbi-sand:before {
   content: "\eae3";
   color: #008ff8;
 }
-
 .sbi-slp:before {
   content: "\eae4";
   color: #78b9a1;
 }
-
 .sbi-tlm:before {
   content: "\eae5";
   color: #e9c97c;
 }
-
 .sbi-woo:before {
   content: "\eae6";
 }
-
 .sbi-ygg:before {
   content: "\eae7";
   color: #435cbf;
 }
-
 .sbi-alpha:before {
   content: "\eaca";
   color: #29b2ff;
 }
-
 .sbi-axs:before {
   content: "\eacb";
   color: #0046dc;
 }
-
 .sbi-bel:before {
   content: "\eacc";
   color: #00cdaa;
 }
-
 .sbi-ctk:before {
   content: "\eacd";
   color: #e1aa4c;
 }
-
 .sbi-grt:before {
   content: "\eace";
   color: #6747ed;
 }
-
 .sbi-inch:before {
   content: "\eacf";
 }
-
 .sbi-ocean:before {
   content: "\ead0";
   color: #ff4092;
 }
-
 .sbi-skl:before {
   content: "\ead1";
 }
-
 .sbi-aave:before {
   content: "\e900";
   color: #7683b1;
 }
-
 .sbi-abt:before {
   content: "\e901";
   color: #3effff;
 }
-
 .sbi-act:before {
   content: "\e902";
   color: #767dff;
 }
-
 .sbi-actn:before {
   content: "\e903";
   color: #f00;
 }
-
 .sbi-ada:before {
   content: "\e904";
 }
-
 .sbi-add:before {
   content: "\e905";
   color: #fec807;
 }
-
 .sbi-adx:before {
   content: "\e906";
   color: #1b75bc;
 }
-
 .sbi-ae:before {
   content: "\e907";
   color: #de3f6b;
 }
-
 .sbi-aeon:before {
   content: "\e908";
   color: #134451;
 }
-
 .sbi-aeur:before {
   content: "\e909";
 }
-
 .sbi-agi:before {
   content: "\e90a";
   color: #6916ff;
 }
-
 .sbi-agrs:before {
   content: "\e90b";
   color: #f49e00;
 }
-
 .sbi-aion:before {
   content: "\e90c";
   color: #5d5d5d;
 }
-
 .sbi-algo:before {
   content: "\e90d";
 }
-
 .sbi-amb:before {
   content: "\e90e";
   color: #3c5be0;
 }
-
 .sbi-amp:before {
   content: "\e90f";
   color: #2daee4;
 }
-
 .sbi-ampl:before {
   content: "\e910";
 }
-
 .sbi-ant:before {
   content: "\e911";
   color: #2cd3e1;
 }
-
 .sbi-apex:before {
   content: "\e912";
   color: #1f4c9f;
 }
-
 .sbi-appc:before {
   content: "\e913";
   color: #fd875e;
 }
-
 .sbi-ardr:before {
   content: "\e914";
   color: #3c87c7;
 }
-
 .sbi-arg:before {
   content: "\e915";
   color: #a71435;
 }
-
 .sbi-ark:before {
   content: "\e916";
   color: #f70000;
 }
-
 .sbi-arn:before {
   content: "\e917";
   color: #0092b5;
 }
-
 .sbi-ary:before {
   content: "\e918";
 }
-
 .sbi-ast:before {
   content: "\e919";
   color: #0061ff;
 }
-
 .sbi-atm:before {
   content: "\e91a";
   color: #346fce;
 }
-
 .sbi-atom:before {
   content: "\e91b";
 }
-
 .sbi-audr:before {
   content: "\e91c";
   color: #34318a;
 }
-
 .sbi-auto:before {
   content: "\e91d";
   color: #fab431;
 }
-
 .sbi-avax:before {
   content: "\e91e";
   color: #e74243;
 }
-
 .sbi-aywa:before {
   content: "\e91f";
   color: #3355b5;
 }
-
 .sbi-bab:before {
   content: "\e920";
   color: #f19f13;
 }
-
 .sbi-bal:before {
   content: "\e921";
 }
-
 .sbi-band:before {
   content: "\e922";
   color: #516aff;
 }
-
 .sbi-bat:before {
   content: "\e923";
   color: #ff5000;
 }
-
 .sbi-bay:before {
   content: "\e924";
   color: #6356ab;
 }
-
 .sbi-bcbc:before {
   content: "\e925";
   color: #004ab5;
 }
-
 .sbi-bcc:before {
   content: "\e926";
   color: #f7931c;
 }
-
 .sbi-bcd:before {
   content: "\e927";
   color: #fcc339;
 }
-
 .sbi-bch:before {
   content: "\e928";
   color: #8dc351;
 }
-
 .sbi-bcio:before {
   content: "\e929";
   color: #3f43ad;
 }
-
 .sbi-bcn:before {
   content: "\e92a";
   color: #f04086;
 }
-
 .sbi-bco:before {
   content: "\e92b";
   color: #2c76b7;
 }
-
 .sbi-bcpt:before {
   content: "\e92c";
 }
-
 .sbi-bdl:before {
   content: "\e92d";
   color: #e54c40;
 }
-
 .sbi-beam:before {
   content: "\e92e";
   color: #0b76ff;
 }
-
 .sbi-bela:before {
   content: "\e92f";
   color: #13a0f6;
 }
-
 .sbi-bix:before {
   content: "\e930";
 }
-
 .sbi-blcn:before {
   content: "\e931";
   color: #2aabe4;
 }
-
 .sbi-blk:before {
   content: "\e932";
 }
-
 .sbi-block:before {
   content: "\e933";
   color: #101341;
 }
-
 .sbi-blz:before {
   content: "\e934";
   color: #18578c;
 }
-
 .sbi-bnb:before {
   content: "\e935";
   color: #f3ba2f;
 }
-
 .sbi-bnt:before {
   content: "\e936";
 }
-
 .sbi-bnty:before {
   content: "\e937";
   color: #fd7a3d;
 }
-
 .sbi-booty:before {
   content: "\e938";
   color: #00b4f4;
 }
-
 .sbi-bos:before {
   content: "\e939";
   color: #00a8d6;
 }
-
 .sbi-bpt:before {
   content: "\e93a";
   color: #0f63d8;
 }
-
 .sbi-bq:before {
   content: "\e93b";
 }
-
 .sbi-brd:before {
   content: "\e93c";
   color: #fe5d86;
 }
-
 .sbi-bsd:before {
   content: "\e93d";
 }
-
 .sbi-bsv:before {
   content: "\e93e";
   color: #eab304;
 }
-
 .sbi-btc:before {
   content: "\e93f";
   color: #f7931a;
 }
-
 .sbi-btcd:before {
   content: "\e940";
   color: #f60;
 }
-
 .sbi-btch:before {
   content: "\e941";
   color: #4700c2;
 }
-
 .sbi-btcp:before {
   content: "\e942";
   color: #272d63;
 }
-
 .sbi-btcz:before {
   content: "\e943";
   color: #f8c24a;
 }
-
 .sbi-btdx:before {
   content: "\e944";
   color: #0af;
 }
-
 .sbi-btg:before {
   content: "\e945";
   color: #eba809;
 }
-
 .sbi-btm:before {
   content: "\e946";
   color: #504c4c;
 }
-
 .sbi-bts:before {
   content: "\e947";
   color: #35baeb;
 }
-
 .sbi-btt:before {
   content: "\e948";
 }
-
 .sbi-btx:before {
   content: "\e949";
   color: #fb2ea3;
 }
-
 .sbi-burst:before {
   content: "\e94a";
 }
-
 .sbi-bze:before {
   content: "\e94b";
   color: #00aeef;
 }
-
 .sbi-bzrx:before {
   content: "\e94c";
   color: #1785d4;
 }
-
 .sbi-call:before {
   content: "\e94d";
   color: #fbb413;
 }
-
 .sbi-cc:before {
   content: "\e94e";
   color: #36b0f3;
 }
-
 .sbi-cdn:before {
   content: "\e94f";
   color: #f70808;
 }
-
 .sbi-cdt:before {
   content: "\e950";
 }
-
 .sbi-cenz:before {
   content: "\e951";
   color: #3089f2;
 }
-
 .sbi-chain:before {
   content: "\e952";
   color: #00aced;
 }
-
 .sbi-chat:before {
   content: "\e953";
   color: #1c98f7;
 }
-
 .sbi-cix:before {
   content: "\e954";
   color: #0576b4;
 }
-
 .sbi-clam:before {
   content: "\e955";
   color: #20c5d3;
 }
-
 .sbi-cloak:before {
   content: "\e956";
   color: #ff3a00;
 }
-
 .sbi-cmm:before {
   content: "\e957";
   color: #2fd2e5;
 }
-
 .sbi-cmt:before {
   content: "\e958";
   color: #c1a05c;
 }
-
 .sbi-cnd:before {
   content: "\e959";
 }
-
 .sbi-cnx:before {
   content: "\e95a";
   color: #4c6bae;
 }
-
 .sbi-cny:before {
   content: "\e95b";
   color: #ff4314;
 }
-
 .sbi-cob:before {
   content: "\e95c";
   color: #13bf99;
 }
-
 .sbi-colx:before {
   content: "\e95d";
   color: #77c3b0;
 }
-
 .sbi-comp:before {
   content: "\e95e";
   color: #00d395;
 }
-
 .sbi-coqui:before {
   content: "\e95f";
   color: #71c800;
 }
-
 .sbi-cred:before {
   content: "\e960";
   color: #37e8a3;
 }
-
 .sbi-crpt:before {
   content: "\e961";
   color: #00bdcd;
 }
-
 .sbi-crv:before {
   content: "\e962";
   color: #465775;
 }
-
 .sbi-crw:before {
   content: "\e963";
 }
-
 .sbi-cs:before {
   content: "\e964";
 }
-
 .sbi-ctr:before {
   content: "\e965";
   color: #fdde6c;
 }
-
 .sbi-ctxc:before {
   content: "\e966";
 }
-
 .sbi-cvc:before {
   content: "\e967";
   color: #3ab03e;
 }
-
 .sbi-d:before {
   content: "\e968";
   color: #b8b8b8;
 }
-
 .sbi-dash:before {
   content: "\e969";
   color: #008ce7;
 }
-
 .sbi-dat:before {
   content: "\e96a";
   color: #2d9cdb;
 }
-
 .sbi-data:before {
   content: "\e96b";
   color: #e9570f;
 }
-
 .sbi-dbc:before {
   content: "\e96c";
   color: #5bc1d4;
 }
-
 .sbi-dcn:before {
   content: "\e96d";
   color: #136485;
 }
-
 .sbi-dcr:before {
   content: "\e96e";
   color: #2ed6a1;
 }
-
 .sbi-deez:before {
   content: "\e96f";
   color: #939393;
 }
-
 .sbi-defi:before {
   content: "\e970";
 }
-
 .sbi-dent:before {
   content: "\e971";
   color: #666;
 }
-
 .sbi-dew:before {
   content: "\e972";
   color: #fec907;
 }
-
 .sbi-dgb:before {
   content: "\e973";
   color: #006ad2;
 }
-
 .sbi-dgd:before {
   content: "\e974";
   color: #f4d029;
 }
-
 .sbi-dlt:before {
   content: "\e975";
   color: #f4ae95;
 }
-
 .sbi-dnt:before {
   content: "\e976";
   color: #2c398f;
 }
-
 .sbi-dock:before {
   content: "\e977";
   color: #786dbc;
 }
-
 .sbi-doge:before {
   content: "\e978";
   color: #c3a634;
 }
-
 .sbi-dot:before {
   content: "\e979";
   color: #e6007a;
 }
-
 .sbi-drgn:before {
   content: "\e97a";
   color: #c91111;
 }
-
 .sbi-drop:before {
   content: "\e97b";
 }
-
 .sbi-dta:before {
   content: "\e97c";
   color: #74d269;
 }
-
 .sbi-dth:before {
   content: "\e97d";
   color: #3c80f1;
 }
-
 .sbi-dtr:before {
   content: "\e97e";
   color: #121747;
 }
-
 .sbi-ebst:before {
   content: "\e97f";
   color: #1693d4;
 }
-
 .sbi-eca:before {
   content: "\e980";
   color: #aa15dd;
 }
-
 .sbi-edg:before {
   content: "\e981";
   color: #2b1544;
 }
-
 .sbi-edo:before {
   content: "\e982";
 }
-
 .sbi-edoge:before {
   content: "\e983";
   color: #0facf3;
 }
-
 .sbi-egld:before {
   content: "\e984";
 }
-
 .sbi-ela:before {
   content: "\e985";
   color: #3fbadf;
 }
-
 .sbi-elec:before {
   content: "\e986";
   color: #f90;
 }
-
 .sbi-elf:before {
   content: "\e987";
   color: #2b5ebb;
 }
-
 .sbi-elix:before {
   content: "\e988";
   color: #00aded;
 }
-
 .sbi-ella:before {
   content: "\e989";
   color: #396a28;
 }
-
 .sbi-emc:before {
   content: "\e98a";
   color: #b49ffc;
 }
-
 .sbi-emc2:before {
   content: "\e98b";
   color: #0cf;
 }
-
 .sbi-eng:before {
   content: "\e98c";
 }
-
 .sbi-enj:before {
   content: "\e98d";
   color: #624dbf;
 }
-
 .sbi-entrp:before {
   content: "\e98e";
   color: #fa5836;
 }
-
 .sbi-eon:before {
   content: "\e98f";
   color: #443f54;
 }
-
 .sbi-eop:before {
   content: "\e990";
   color: #35a7df;
 }
-
 .sbi-eos:before {
   content: "\e991";
 }
-
 .sbi-eqli:before {
   content: "\e992";
   color: #c9a35e;
 }
-
 .sbi-equa:before {
   content: "\e993";
   color: #f68922;
 }
-
 .sbi-etc:before {
   content: "\e994";
   color: #328332;
 }
-
 .sbi-eth:before {
   content: "\e995";
   color: #627eea;
 }
-
 .sbi-ethos:before {
   content: "\e996";
   color: #00ffba;
 }
-
 .sbi-etn:before {
   content: "\e997";
   color: #23bee2;
 }
-
 .sbi-etp:before {
   content: "\e998";
   color: #00a5ff;
 }
-
 .sbi-eur:before {
   content: "\e999";
   color: #0f8ff8;
 }
-
 .sbi-evx:before {
   content: "\e99a";
   color: #044aac;
 }
-
 .sbi-exmo:before {
   content: "\e99b";
   color: #347ffb;
 }
-
 .sbi-exp:before {
   content: "\e99c";
   color: #ffaa5c;
 }
-
 .sbi-fair:before {
   content: "\e99d";
   color: #c99705;
 }
-
 .sbi-fct:before {
   content: "\e99e";
   color: #417ba4;
 }
-
 .sbi-fil:before {
   content: "\e99f";
   color: #42c1ca;
 }
-
 .sbi-fjc:before {
   content: "\e9a0";
   color: #00afec;
 }
-
 .sbi-fldc:before {
   content: "\e9a1";
   color: #c40e09;
 }
-
 .sbi-flm:before {
   content: "\e9a2";
   color: #df4aac;
 }
-
 .sbi-flo:before {
   content: "\e9a3";
   color: #2080a2;
 }
-
 .sbi-fsn:before {
   content: "\e9a4";
   color: #1d9ad7;
 }
-
 .sbi-ftc:before {
   content: "\e9a5";
 }
-
 .sbi-ftm:before {
   content: "\e9a6";
   color: #13b5ec;
 }
-
 .sbi-fuel:before {
   content: "\e9a7";
   color: #4096d0;
 }
-
 .sbi-fun:before {
   content: "\e9a8";
   color: #ed1968;
 }
-
 .sbi-game:before {
   content: "\e9a9";
   color: #2d475b;
 }
-
 .sbi-gas:before {
   content: "\e9aa";
   color: #58bf00;
 }
-
 .sbi-gbp:before {
   content: "\e9ab";
   color: #bc3fe0;
 }
-
 .sbi-gbx:before {
   content: "\e9ac";
   color: #1666af;
 }
-
 .sbi-gbyte:before {
   content: "\e9ad";
 }
-
 .sbi-generic:before {
   content: "\e9ae";
   color: #efb914;
 }
-
 .sbi-gin:before {
   content: "\e9af";
   color: #008dde;
 }
-
 .sbi-give:before {
   content: "\e9b0";
   color: #f1cb60;
 }
-
 .sbi-glxt:before {
   content: "\e9b1";
   color: #005396;
 }
-
 .sbi-gmr:before {
   content: "\e9b2";
 }
-
 .sbi-gno:before {
   content: "\e9b3";
   color: #00a6c4;
 }
-
 .sbi-gnt:before {
   content: "\e9b4";
   color: #001d57;
 }
-
 .sbi-gold:before {
   content: "\e9b5";
   color: #f1b32b;
 }
-
 .sbi-grc:before {
   content: "\e9b6";
   color: #5411b3;
 }
-
 .sbi-grin:before {
   content: "\e9b7";
   color: #fff300;
 }
-
 .sbi-grs:before {
   content: "\e9b8";
   color: #377e96;
 }
-
 .sbi-gsc:before {
   content: "\e9b9";
   color: #ff0060;
 }
-
 .sbi-gto:before {
   content: "\e9ba";
   color: #7f27ff;
 }
-
 .sbi-gup:before {
   content: "\e9bb";
   color: #37dcd8;
 }
-
 .sbi-gusd:before {
   content: "\e9bc";
   color: #00dcfa;
 }
-
 .sbi-gvt:before {
   content: "\e9bd";
   color: #16b9ad;
 }
-
 .sbi-gxs:before {
   content: "\e9be";
   color: #35a5f3;
 }
-
 .sbi-gzr:before {
   content: "\e9bf";
   color: #56c9e9;
 }
-
 .sbi-hight:before {
   content: "\e9c0";
   color: #117fc0;
 }
-
 .sbi-hnt:before {
   content: "\e9c1";
 }
-
 .sbi-hodl:before {
   content: "\e9c2";
   color: #d59143;
 }
-
 .sbi-hot:before {
   content: "\e9c3";
   color: #8834ff;
 }
-
 .sbi-hpb:before {
   content: "\e9c4";
   color: #0bf9ff;
 }
-
 .sbi-hsr:before {
   content: "\e9c5";
   color: #56428e;
 }
-
 .sbi-ht:before {
   content: "\e9c6";
   color: #2a3069;
 }
-
 .sbi-html:before {
   content: "\e9c7";
   color: #cfa967;
 }
-
 .sbi-huc:before {
   content: "\e9c8";
   color: #ffc018;
 }
-
 .sbi-hush:before {
   content: "\e9c9";
 }
-
 .sbi-icn:before {
   content: "\e9ca";
   color: #4c6f8c;
 }
-
 .sbi-icx:before {
   content: "\e9cb";
   color: #1fc5c9;
 }
-
 .sbi-ignis:before {
   content: "\e9cc";
   color: #f9c011;
 }
-
 .sbi-ilk:before {
   content: "\e9cd";
   color: #98c23a;
 }
-
 .sbi-ink:before {
   content: "\e9ce";
   color: #df1a14;
 }
-
 .sbi-ins:before {
   content: "\e9cf";
   color: #b2a3f6;
 }
-
 .sbi-ion:before {
   content: "\e9d0";
   color: #57beea;
 }
-
 .sbi-iop:before {
   content: "\e9d1";
   color: #0cafa5;
 }
-
 .sbi-iost:before {
   content: "\e9d2";
 }
-
 .sbi-iota:before {
   content: "\e9d3";
 }
-
 .sbi-iotx:before {
   content: "\e9d4";
   color: #00d4d5;
 }
-
 .sbi-iq:before {
   content: "\e9d5";
   color: #5df;
 }
-
 .sbi-itc:before {
   content: "\e9d6";
 }
-
 .sbi-jnt:before {
   content: "\e9d7";
   color: #0050db;
 }
-
 .sbi-jpy:before {
   content: "\e9d8";
   color: #eac749;
 }
-
 .sbi-kava:before {
   content: "\e9d9";
   color: #ff564f;
 }
-
 .sbi-kcs:before {
   content: "\e9da";
   color: #0093dd;
 }
-
 .sbi-kin:before {
   content: "\e9db";
   color: #005fff;
 }
-
 .sbi-klown:before {
   content: "\e9dc";
   color: #ea0017;
 }
-
 .sbi-kmd:before {
   content: "\e9dd";
   color: #2b6680;
 }
-
 .sbi-knc:before {
   content: "\e9de";
   color: #188c92;
 }
-
 .sbi-krb:before {
   content: "\e9df";
   color: #00aeef;
 }
-
 .sbi-ksm:before {
   content: "\e9e0";
 }
-
 .sbi-lbc:before {
   content: "\e9e1";
   color: #006149;
 }
-
 .sbi-lend:before {
   content: "\e9e2";
   color: #0fa9c9;
 }
-
 .sbi-leo:before {
   content: "\e9e3";
 }
-
 .sbi-link:before {
   content: "\e9e4";
   color: #01a6fb;
 }
-
 .sbi-lkk:before {
   content: "\e9e5";
   color: #9d01eb;
 }
-
 .sbi-loom:before {
   content: "\e9e6";
   color: #48beff;
 }
-
 .sbi-lpt:before {
   content: "\e9e7";
 }
-
 .sbi-lrc:before {
   content: "\e9e8";
   color: #2ab6f6;
 }
-
 .sbi-lsk:before {
   content: "\e9e9";
   color: #0d4ea0;
 }
-
 .sbi-ltc:before {
   content: "\e9ea";
   color: #bfbbbb;
 }
-
 .sbi-lun:before {
   content: "\e9eb";
   color: #f55749;
 }
-
 .sbi-maid:before {
   content: "\e9ec";
   color: #5592d7;
 }
-
 .sbi-mana:before {
   content: "\e9ed";
   color: #ff7757;
 }
-
 .sbi-matic:before {
   content: "\e9ee";
   color: #2b6def;
 }
-
 .sbi-mcap:before {
   content: "\e9ef";
 }
-
 .sbi-mco:before {
   content: "\e9f0";
   color: #103f68;
 }
-
 .sbi-mda:before {
   content: "\e9f1";
   color: #01a64f;
 }
-
 .sbi-mds:before {
   content: "\e9f2";
 }
-
 .sbi-med:before {
   content: "\e9f3";
   color: #00b0ff;
 }
-
 .sbi-meetone:before {
   content: "\e9f4";
 }
-
 .sbi-mft:before {
   content: "\e9f5";
   color: #da1157;
 }
-
 .sbi-mith:before {
   content: "\e9f6";
   color: #00316d;
 }
-
 .sbi-mkr:before {
   content: "\e9f7";
   color: #1abc9c;
 }
-
 .sbi-mln:before {
   content: "\e9f8";
 }
-
 .sbi-mnx:before {
   content: "\e9f9";
   color: #00adef;
 }
-
 .sbi-mnz:before {
   content: "\e9fa";
   color: #7f368a;
 }
-
 .sbi-moac:before {
   content: "\e9fb";
 }
-
 .sbi-mod:before {
   content: "\e9fc";
   color: #09547d;
 }
-
 .sbi-mona:before {
   content: "\e9fd";
   color: #dec799;
 }
-
 .sbi-msr:before {
   content: "\e9fe";
   color: #47b95c;
 }
-
 .sbi-mth:before {
   content: "\e9ff";
   color: #104fca;
 }
-
 .sbi-mtl:before {
   content: "\ea00";
 }
-
 .sbi-music:before {
   content: "\ea01";
   color: #fbbf02;
 }
-
 .sbi-mzc:before {
   content: "\ea02";
   color: #ffaa05;
 }
-
 .sbi-nano:before {
   content: "\ea03";
   color: #4a90e2;
 }
-
 .sbi-nas:before {
   content: "\ea04";
 }
-
 .sbi-nav:before {
   content: "\ea05";
   color: #7d59b5;
 }
-
 .sbi-ncash:before {
   content: "\ea06";
   color: #36a9cf;
 }
-
 .sbi-ndz:before {
   content: "\ea07";
   color: #622fba;
 }
-
 .sbi-near:before {
   content: "\ea08";
 }
-
 .sbi-nebl:before {
   content: "\ea09";
   color: #50479e;
 }
-
 .sbi-neo:before {
   content: "\ea0a";
   color: #58bf00;
 }
-
 .sbi-neos:before {
   content: "\ea0b";
   color: #e5f300;
 }
-
 .sbi-neu:before {
   content: "\ea0c";
   color: #b3ba00;
 }
-
 .sbi-nexo:before {
   content: "\ea0d";
   color: #1a4199;
 }
-
 .sbi-ngc:before {
   content: "\ea0e";
   color: #f80000;
 }
-
 .sbi-nio:before {
   content: "\ea0f";
   color: #70c9c9;
 }
-
 .sbi-nlc2:before {
   content: "\ea10";
   color: #f28f01;
 }
-
 .sbi-nlg:before {
   content: "\ea11";
   color: #2ab0fd;
 }
-
 .sbi-nmc:before {
   content: "\ea12";
   color: #186c9d;
 }
-
 .sbi-npxs:before {
   content: "\ea13";
   color: #f5d100;
 }
-
 .sbi-nuls:before {
   content: "\ea14";
   color: #82bd39;
 }
-
 .sbi-nxs:before {
   content: "\ea15";
   color: #4099cd;
 }
-
 .sbi-nxt:before {
   content: "\ea16";
   color: #008fbb;
 }
-
 .sbi-oax:before {
   content: "\ea17";
   color: #164b79;
 }
-
 .sbi-ok:before {
   content: "\ea18";
 }
-
 .sbi-omg:before {
   content: "\ea19";
   color: #1a53f0;
 }
-
 .sbi-omni:before {
   content: "\ea1a";
   color: #1c347a;
 }
-
 .sbi-ong:before {
   content: "\ea1b";
 }
-
 .sbi-ont:before {
   content: "\ea1c";
   color: #32a4be;
 }
-
 .sbi-oot:before {
   content: "\ea1d";
   color: #25aae1;
 }
-
 .sbi-ost:before {
   content: "\ea1e";
   color: #34445b;
 }
-
 .sbi-ox:before {
   content: "\ea1f";
   color: #4392cd;
 }
-
 .sbi-pac:before {
   content: "\ea20";
   color: #f5eb16;
 }
-
 .sbi-part:before {
   content: "\ea21";
   color: #03e8b0;
 }
-
 .sbi-pasc:before {
   content: "\ea22";
   color: #f7931e;
 }
-
 .sbi-pasl:before {
   content: "\ea23";
   color: #00acff;
 }
-
 .sbi-pax:before {
   content: "\ea24";
   color: #ede708;
 }
-
 .sbi-pay:before {
   content: "\ea25";
 }
-
 .sbi-payx:before {
   content: "\ea26";
   color: #630;
 }
-
 .sbi-pink:before {
   content: "\ea27";
   color: #ed79aa;
 }
-
 .sbi-pirl:before {
   content: "\ea28";
   color: #96b73d;
 }
-
 .sbi-pivx:before {
   content: "\ea29";
   color: #5e4778;
 }
-
 .sbi-plr:before {
   content: "\ea2a";
   color: #00bfff;
 }
-
 .sbi-poa:before {
   content: "\ea2b";
   color: #444fa1;
 }
-
 .sbi-poe:before {
   content: "\ea2c";
   color: #dcd6cc;
 }
-
 .sbi-polis:before {
   content: "\ea2d";
 }
-
 .sbi-poly:before {
   content: "\ea2e";
   color: #4c5a95;
 }
-
 .sbi-pot:before {
   content: "\ea2f";
   color: #105b2f;
 }
-
 .sbi-powr:before {
   content: "\ea30";
   color: #05bca9;
 }
-
 .sbi-ppc:before {
   content: "\ea31";
   color: #3cb054;
 }
-
 .sbi-ppp:before {
   content: "\ea32";
   color: #348f8d;
 }
-
 .sbi-ppt:before {
   content: "\ea33";
 }
-
 .sbi-pre:before {
   content: "\ea34";
   color: #3a8cbd;
 }
-
 .sbi-prl:before {
   content: "\ea35";
   color: #1061e3;
 }
-
 .sbi-pungo:before {
   content: "\ea36";
   color: #22b573;
 }
-
 .sbi-pura:before {
   content: "\ea37";
 }
-
 .sbi-qash:before {
   content: "\ea38";
   color: #1347e8;
 }
-
 .sbi-qiwi:before {
   content: "\ea39";
   color: #ff8c00;
 }
-
 .sbi-qlc:before {
   content: "\ea3a";
   color: #610089;
 }
-
 .sbi-qrl:before {
   content: "\ea3b";
 }
-
 .sbi-qsp:before {
   content: "\ea3c";
 }
-
 .sbi-qtum:before {
   content: "\ea3d";
   color: #2e9ad0;
 }
-
 .sbi-r:before {
   content: "\ea3e";
   color: #771a4e;
 }
-
 .sbi-rads:before {
   content: "\ea3f";
   color: #9d4bef;
 }
-
 .sbi-rap:before {
   content: "\ea40";
 }
-
 .sbi-rcn:before {
   content: "\ea41";
   color: #3555f9;
 }
-
 .sbi-rdd:before {
   content: "\ea42";
   color: #e30613;
 }
-
 .sbi-rdn:before {
   content: "\ea43";
 }
-
 .sbi-ren:before {
   content: "\ea44";
 }
-
 .sbi-rep:before {
   content: "\ea45";
   color: #602a52;
 }
-
 .sbi-req:before {
   content: "\ea46";
   color: #00e6a0;
 }
-
 .sbi-rhoc:before {
   content: "\ea47";
   color: #cc1e46;
 }
-
 .sbi-ric:before {
   content: "\ea48";
   color: #60e4dd;
 }
-
 .sbi-rise:before {
   content: "\ea49";
   color: #f49352;
 }
-
 .sbi-rlc:before {
   content: "\ea4a";
   color: #ffd800;
 }
-
 .sbi-rpx:before {
   content: "\ea4b";
   color: #8d181b;
 }
-
 .sbi-rsr:before {
   content: "\ea4c";
 }
-
 .sbi-rub:before {
   content: "\ea4d";
   color: #64d1ff;
 }
-
 .sbi-rune:before {
   content: "\ea4e";
   color: #1be7ca;
 }
-
 .sbi-rvn:before {
   content: "\ea4f";
   color: #384182;
 }
-
 .sbi-ryo:before {
   content: "\ea50";
   color: #3d58b0;
 }
-
 .sbi-safe:before {
   content: "\ea51";
   color: #00688c;
 }
-
 .sbi-sai:before {
   content: "\ea52";
   color: #b68900;
 }
-
 .sbi-salt:before {
   content: "\ea53";
   color: #1beef4;
 }
-
 .sbi-san:before {
   content: "\ea54";
   color: #2b77b3;
 }
-
 .sbi-sbd:before {
   content: "\ea55";
   color: #4ba2f2;
 }
-
 .sbi-sberbank:before {
   content: "\ea56";
   color: #48b254;
 }
-
 .sbi-sc:before {
   content: "\ea57";
   color: #20ee82;
 }
-
 .sbi-shift:before {
   content: "\ea58";
   color: #964b9c;
 }
-
 .sbi-sib:before {
   content: "\ea59";
   color: #057bc1;
 }
-
 .sbi-sin:before {
   content: "\ea5a";
   color: #f5342e;
 }
-
 .sbi-sky:before {
   content: "\ea5b";
   color: #0072ff;
 }
-
 .sbi-slr:before {
   content: "\ea5c";
   color: #fda616;
 }
-
 .sbi-sls:before {
   content: "\ea5d";
   color: #8e9495;
 }
-
 .sbi-smart:before {
   content: "\ea5e";
   color: #fec60d;
 }
-
 .sbi-sngls:before {
   content: "\ea5f";
   color: #b30d23;
 }
-
 .sbi-snm:before {
   content: "\ea60";
 }
-
 .sbi-snt:before {
   content: "\ea61";
   color: #5b6dee;
 }
-
 .sbi-snx:before {
   content: "\ea62";
   color: #00d1ff;
 }
-
 .sbi-soc:before {
   content: "\ea63";
   color: #199248;
 }
-
 .sbi-sol:before {
   content: "\ea64";
   color: #709fcd;
 }
-
 .sbi-spank:before {
   content: "\ea65";
   color: #ff3b81;
 }
-
 .sbi-sphtx:before {
   content: "\ea66";
   color: #00b098;
 }
-
 .sbi-srm:before {
   content: "\ea67";
   color: #71e0ec;
 }
-
 .sbi-srn:before {
   content: "\ea68";
 }
-
 .sbi-stak:before {
   content: "\ea69";
   color: #f2941b;
 }
-
 .sbi-start:before {
   content: "\ea6a";
   color: #01aef0;
 }
-
 .sbi-steem:before {
   content: "\ea6b";
   color: #4ba2f2;
 }
-
 .sbi-storj:before {
   content: "\ea6c";
   color: #2683ff;
 }
-
 .sbi-storm:before {
   content: "\ea6d";
   color: #080d98;
 }
-
 .sbi-stq:before {
   content: "\ea6e";
   color: #2dc4e7;
 }
-
 .sbi-strat:before {
   content: "\ea6f";
   color: #1387c9;
 }
-
 .sbi-sub:before {
   content: "\ea70";
   color: #e53431;
 }
-
 .sbi-sumo:before {
   content: "\ea71";
   color: #2d9cdb;
 }
-
 .sbi-sushi:before {
   content: "\ea72";
   color: #ff4c9e;
 }
-
 .sbi-sxp:before {
   content: "\ea73";
   color: #ff811e;
 }
-
 .sbi-sys:before {
   content: "\ea74";
   color: #0082c6;
 }
-
 .sbi-taas:before {
   content: "\ea75";
 }
-
 .sbi-tau:before {
   content: "\ea76";
   color: #7b346e;
 }
-
 .sbi-tbx:before {
   content: "\ea77";
   color: #5244d4;
 }
-
 .sbi-tel:before {
   content: "\ea78";
   color: #14c8ff;
 }
-
 .sbi-ten:before {
   content: "\ea79";
   color: #0899cd;
 }
-
 .sbi-tern:before {
   content: "\ea7a";
   color: #f4c257;
 }
-
 .sbi-tgch:before {
   content: "\ea7b";
 }
-
 .sbi-theta:before {
   content: "\ea7c";
   color: #2ab8e6;
 }
-
 .sbi-tix:before {
   content: "\ea7d";
   color: #ef494d;
 }
-
 .sbi-tkn:before {
   content: "\ea7e";
   color: #24dd7b;
 }
-
 .sbi-tks:before {
   content: "\ea7f";
   color: #895af8;
 }
-
 .sbi-tnb:before {
   content: "\ea80";
   color: #ffc04e;
 }
-
 .sbi-tnc:before {
   content: "\ea81";
   color: #ff439b;
 }
-
 .sbi-tnt:before {
   content: "\ea82";
   color: #ff4081;
 }
-
 .sbi-tomo:before {
   content: "\ea83";
 }
-
 .sbi-tpay:before {
   content: "\ea84";
   color: #3058a6;
 }
-
 .sbi-trb:before {
   content: "\ea85";
   color: #53fdb2;
 }
-
 .sbi-trig:before {
   content: "\ea86";
   color: #30c0f2;
 }
-
 .sbi-trtl:before {
   content: "\ea87";
   color: #00843d;
 }
-
 .sbi-trx:before {
   content: "\ea88";
 }
-
 .sbi-tusd:before {
   content: "\ea89";
   color: #2b2e7f;
 }
-
 .sbi-tzc:before {
   content: "\ea8a";
   color: #374851;
 }
-
 .sbi-ubq:before {
   content: "\ea8b";
   color: #00ea90;
 }
-
 .sbi-uni:before {
   content: "\ea8c";
   color: #ff007a;
 }
-
 .sbi-unity:before {
   content: "\ea8d";
   color: #f58634;
 }
-
 .sbi-usd:before {
   content: "\ea8e";
   color: #6cde07;
 }
-
 .sbi-usdc:before {
   content: "\ea8f";
   color: #2775c9;
 }
-
 .sbi-usdt:before {
   content: "\ea90";
   color: #26a17b;
 }
-
 .sbi-utk:before {
   content: "\ea91";
   color: #30367a;
 }
-
 .sbi-veri:before {
   content: "\ea92";
   color: #f93;
 }
-
 .sbi-vet:before {
   content: "\ea93";
   color: #15bdff;
 }
-
 .sbi-via:before {
   content: "\ea94";
   color: #565656;
 }
-
 .sbi-vib:before {
   content: "\ea95";
   color: #ff1f43;
 }
-
 .sbi-vibe:before {
   content: "\ea96";
   color: #338be5;
 }
-
 .sbi-vivo:before {
   content: "\ea97";
   color: #408af1;
 }
-
 .sbi-vrc:before {
   content: "\ea98";
   color: #418bca;
 }
-
 .sbi-vrsc:before {
   content: "\ea99";
   color: #ffb500;
 }
-
 .sbi-vtc:before {
   content: "\ea9a";
   color: #048657;
 }
-
 .sbi-vtho:before {
   content: "\ea9b";
   color: #2a5284;
 }
-
 .sbi-wabi:before {
   content: "\ea9c";
   color: #399b32;
 }
-
 .sbi-wan:before {
   content: "\ea9d";
   color: #136aad;
 }
-
 .sbi-waves:before {
   content: "\ea9e";
   color: #0155ff;
 }
-
 .sbi-wax:before {
   content: "\ea9f";
   color: #f89022;
 }
-
 .sbi-wgr:before {
   content: "\eaa0";
   color: #b80000;
 }
-
 .sbi-wicc:before {
   content: "\eaa1";
   color: #5783cb;
 }
-
 .sbi-wings:before {
   content: "\eaa2";
   color: #0dc9f7;
 }
-
 .sbi-wpr:before {
   content: "\eaa3";
   color: #ffe600;
 }
-
 .sbi-wtc:before {
   content: "\eaa4";
   color: #8200ff;
 }
-
 .sbi-x:before {
   content: "\eaa5";
   color: #3b5998;
 }
-
 .sbi-xas:before {
   content: "\eaa6";
   color: #faa00d;
 }
-
 .sbi-xbc:before {
   content: "\eaa7";
   color: #f7931a;
 }
-
 .sbi-xbp:before {
   content: "\eaa8";
   color: #21af67;
 }
-
 .sbi-xbtc:before {
   content: "\eaa9";
   color: #ff914d;
 }
-
 .sbi-xby:before {
   content: "\eaaa";
   color: #56f4f1;
 }
-
 .sbi-xcp:before {
   content: "\eaab";
   color: #ed1650;
 }
-
 .sbi-xdn:before {
   content: "\eaac";
   color: #4f7aa2;
 }
-
 .sbi-xem:before {
   content: "\eaad";
   color: #67b2e8;
 }
-
 .sbi-xin:before {
   content: "\eaae";
   color: #1eb5fa;
 }
-
 .sbi-xlm:before {
   content: "\eaaf";
 }
-
 .sbi-xmcc:before {
   content: "\eab0";
   color: #dd0632;
 }
-
 .sbi-xmg:before {
   content: "\eab1";
   color: #004a80;
 }
-
 .sbi-xmo:before {
   content: "\eab2";
   color: #f60;
 }
-
 .sbi-xmr:before {
   content: "\eab3";
   color: #f60;
 }
-
 .sbi-xmy:before {
   content: "\eab4";
   color: #ec1076;
 }
-
 .sbi-xp:before {
   content: "\eab5";
   color: #008200;
 }
-
 .sbi-xpa:before {
   content: "\eab6";
   color: #4fa784;
 }
-
 .sbi-xpm:before {
   content: "\eab7";
   color: #ffd81b;
 }
-
 .sbi-xrp:before {
   content: "\eab8";
 }
-
 .sbi-xsg:before {
   content: "\eab9";
   color: #d21e2b;
 }
-
 .sbi-xtz:before {
   content: "\eaba";
   color: #a6e000;
 }
-
 .sbi-xuc:before {
   content: "\eabb";
   color: #25aae3;
 }
-
 .sbi-xvc:before {
   content: "\eabc";
   color: #b50126;
 }
-
 .sbi-xvg:before {
   content: "\eabd";
   color: #00cbff;
 }
-
 .sbi-xzc:before {
   content: "\eabe";
   color: #23b852;
 }
-
 .sbi-yfi:before {
   content: "\eabf";
   color: #006ae3;
 }
-
 .sbi-yfii:before {
   content: "\eac0";
   color: #ff007a;
 }
-
 .sbi-yoyow:before {
   content: "\eac1";
   color: #21a5de;
 }
-
 .sbi-zcl:before {
   content: "\eac2";
   color: #c87035;
 }
-
 .sbi-zec:before {
   content: "\eac3";
   color: #ecb244;
 }
-
 .sbi-zel:before {
   content: "\eac4";
   color: #183c87;
 }
-
 .sbi-zen:before {
   content: "\eac5";
   color: #00eaab;
 }
-
 .sbi-zest:before {
   content: "\eac6";
   color: #07bc9c;
 }
-
 .sbi-zil:before {
   content: "\eac7";
   color: #49c1bf;
 }
-
 .sbi-zilla:before {
   content: "\eac8";
   color: #00004d;
 }
-
 .sbi-zrx:before {
   content: "\eac9";
 }
