@@ -106,7 +106,8 @@
 }
 
 .sbi-sand:before {
-  background-image: "https://raw.githubusercontent.com/ScavengerBot/CryptoFont/master/svg/sand.svg";
+  content: "\eae3";
+  color: #008ff8;
 }
 
 .sbi-slp:before {
