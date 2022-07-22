@@ -62,6 +62,7 @@ Icon Example
 
 ## Special Thanks 👏
 To those involved at [SPOTHQ](https://github.com/spothq/cryptocurrency-icons) for the start.
+To those involved at [CryptoFonts](https://www.cryptofonts.com/)
 
 
 ## Used By
